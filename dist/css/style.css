@@ -495,15 +495,6 @@ main {
   max-width: 500px;
 }
 
-.about__header {
-  margin: 0 0 15px 0;
-  color: #fff;
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .about__subheader {
   margin: 0 0 30px 0;
   font-size: 18px;
@@ -530,6 +521,15 @@ main {
 
 .about__text a:hover {
   text-decoration: underline;
+}
+
+.mainHeader {
+  margin: 0 0 15px 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .catalog {
@@ -853,6 +853,10 @@ main {
   display: none;
 }
 
+.way {
+  padding: 100px 0 50px 0;
+}
+
 @media (max-width: 1140px) {
   .container {
     max-width: 970px;
@@ -1078,10 +1082,6 @@ main {
     font-size: 14px;
   }
 
-  .about__header {
-    font-size: 30px;
-  }
-
   .about__subheader {
     font-size: 12px;
   }
@@ -1089,6 +1089,10 @@ main {
   .about__text {
     font-size: 10px;
     line-height: 16px;
+  }
+
+  .mainHeader {
+    font-size: 30px;
   }
 
   .catalog__descr {
