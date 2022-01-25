@@ -595,8 +595,9 @@ main {
           justify-content: space-between;
 }
 
-.catalog__hyundai {
-  width: 150px;
+.catalog__cars {
+  width: 130px;
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -604,70 +605,26 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-.catalog__hyundai img {
-  margin: 0 0 10px 0;
+.catalog__cars img {
   max-width: 100%;
 }
 
-.catalog__hyundai p {
+.catalog__cars p {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
 }
 
-.catalog__kia {
-  width: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.catalog__kia img {
-  margin: 0 0 10px 0;
-  max-width: 100%;
-}
-
-.catalog__kia p {
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.catalog__genesis {
-  width: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.catalog__genesis img {
-  margin: 30px 0 10px 0;
-  max-width: 100%;
-}
-
-.catalog__genesis p {
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
+.catalog__cars_m p {
+  margin: 17px 0 0 0;
 }
 
 .slider-c {
@@ -1068,20 +1025,21 @@ main {
     font-size: 14px;
   }
 
-  .catalog__hyundai {
+  .catalog__cars {
     width: 100px;
+    height: 60px;
   }
 
-  .catalog__kia {
-    width: 100px;
+  .catalog__cars p {
+    font-size: 11px;
   }
 
-  .catalog__genesis {
-    width: 100px;
+  .catalog__cars_m {
+    height: 72px;
   }
 
-  .catalog__genesis img {
-    margin: 20px 0 10px 0;
+  .catalog__cars_m p {
+    margin: 0;
   }
 
   .compare__header {
@@ -1094,6 +1052,12 @@ main {
 
   .compare__subheader span {
     font-size: 36px;
+  }
+}
+
+@media (max-width: 410px) {
+  .catalog__cars_t {
+    height: 72px;
   }
 }
 
