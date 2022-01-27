@@ -694,8 +694,16 @@ main {
   max-width: 500px;
 }
 
+.compare__column_m {
+  min-width: 174px;
+}
+
+.compare__column_tY {
+  min-width: 118px;
+}
+
 .compare__column:first-child {
-  min-width: 105px;
+  /** min-width: 105px **/
   margin: 0 30px 0 0;
 }
 
@@ -1008,7 +1016,11 @@ main {
     font-size: 14px;
   }
 
-  .compare__subheader_sorento span {
+  .compare__subheader_nSize span {
+    font-size: 31px;
+  }
+
+  .compare__subheader_eqs span {
     font-size: 31px;
   }
 }
@@ -1083,8 +1095,12 @@ main {
     font-size: 14px;
   }
 
-  .compare__subheader_sorento span {
+  .compare__subheader_nSize span {
     font-size: 26px;
+  }
+
+  .compare__subheader_eqs span {
+    font-size: 25px;
   }
 }
 
@@ -1134,5 +1150,9 @@ main {
 
   .compare__subheader_small span {
     font-size: 14px;
+  }
+
+  .compare__subheader_eqs span {
+    font-size: 25px;
   }
 }
